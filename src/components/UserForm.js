@@ -113,7 +113,7 @@ const UserForm = (props) => {
                 </div>
                 <div>
                     <label className='form-label'>Email Address: </label>
-                    <input type="text" value={email} onChange={ handleEmail } />
+                    <input className='form-control' type="text" value={email} onChange={ handleEmail } />
                     { emailError ?
                     <p className='text-danger'>{ emailError }</p> : null
                     }
